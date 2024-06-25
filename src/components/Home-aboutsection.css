@@ -1,0 +1,118 @@
+.home-about{
+box-sizing: border-box;
+    margin: 2rem 10rem;
+}
+
+.home-about h1{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.home-about p{
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.about-des-sec h2{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.about-des-sec p{
+    font-size: 01.11rem;
+    padding: 10px;
+}
+.about-des-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:3.5rem ;
+}
+.about-des-sec-revers{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:5rem ;
+    
+}
+
+.about-des-sec-revers p{
+    padding-left: 40px;
+}
+
+.about-des-sec-revers h2{
+    padding-left: 40px;
+}
+.des-text{
+    width: 50%;
+    text-align: start;
+    /* margin-right: 40px; */
+}
+.ab-image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
+    margin: 10px;
+
+}
+
+.ab-image img{
+    width: 48%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: -1px 1px  62px -18px rgba(0, 0, 0, 0.19); 
+}
+.ab-image img:nth-child(2){
+    position: absolute;
+    top:-10%;
+    right: 0;
+}
+
+@media screen and (max-width: 850px){
+    
+    .home-about{
+
+            margin: 3rem 1rem;
+        }
+        .about-des-sec{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: space-between;
+            margin-top:5rem ;
+
+        }
+        .about-des-sec-revers{
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top:3rem ;
+        }
+        .des-text{
+            width: 100%;
+            text-align: start;
+            margin: 16px;
+        }
+        .ab-image{
+      
+            width: 100%;
+         }
+         .ab-image img{
+            width: 48%;
+            height: 300px;
+            
+        }
+
+        .home-about h1{
+            font-size: 1.5rem;
+            padding: 5px;
+        }
+        
+        .home-about p{
+            font-size: 0.9rem;
+            padding: 5px;
+        }
+      
+}

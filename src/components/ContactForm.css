@@ -1,0 +1,111 @@
+ h1{
+    margin: 15px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 6rem;
+}
+.main input,textarea, button{
+   display: block;
+    margin: 1rem 1rem;
+}
+input{
+    margin: 10px;
+    padding: 10px 20px;
+    width: 80%;
+    border: 1px solid black;
+    row-gap: 20px;
+}
+textarea{
+    margin: 10px;
+    padding: 10px 20px;
+    width: 80%;
+    margin-left: 15px;
+}
+.aplbtn{
+    padding: 10px 20px;
+    width: 80%;
+    background-color:#01959a;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* button{
+    padding: 10px 20px;
+    width: 80%;
+    background-color: blue;
+    color: #fff;
+    font-size: 1rem;
+    border: none
+} */
+.aplbtn:hover{
+    background-color: #56bbbf;
+    transition: 0.2s ease-in-out;
+    color: black;
+    border-radius: 5px;
+
+
+}
+.form-side{
+    width: 50%;
+    height: auto;
+}
+.text-side{
+    width: 50%;
+    align-items: flex-start;
+    text-align: start;
+
+}
+.text-side p{
+    line-height: 3rem;
+    font-size: 18px;
+
+}
+.text-side i{
+    font-size: 20px;
+    color: #01959a;
+    padding: 1rem;
+}
+
+
+
+
+
+@media screen and (max-width: 850px){
+    .main h1{
+        margin: 10px;
+        font-size: 1.5rem;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 2rem 3rem;
+    }
+    input{
+        width: 100%;
+    }
+    textarea{
+
+        width: 100%;
+        
+    }
+    button{
+
+        width: 100%;
+       
+    }
+    .form-side{
+        width: 100%;
+    }
+    .text-side{
+        width: 100%;
+        text-align: start;
+    }
+  }
