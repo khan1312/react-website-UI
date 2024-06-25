@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-website-UI/static/css/main.d5f29a8a.css",
+    "main.js": "/react-website-UI/static/js/main.3373e1d3.js",
+    "static/media/aboutus.webp": "/react-website-UI/static/media/aboutus.f32e59366bd64aaa3862.webp",
+    "static/media/banner-home.jpg": "/react-website-UI/static/media/banner-home.9eb786549d62f164aab6.jpg",
+    "static/media/Contac.jpg": "/react-website-UI/static/media/Contac.c39f2351efa241b7e550.jpg",
+    "static/media/appdevelopment.jpg": "/react-website-UI/static/media/appdevelopment.f1187ef01ce1d086d06f.jpg",
+    "static/media/Software.jpg": "/react-website-UI/static/media/Software.a21531147bae54adb339.jpg",
+    "static/media/img1.jpg": "/react-website-UI/static/media/img1.d5bf6459c6fc2d39a713.jpg",
+    "static/media/social.jpg": "/react-website-UI/static/media/social.aed95a8e65e3487731cd.jpg",
+    "static/media/account.jpg": "/react-website-UI/static/media/account.b8c7ef16b5264712e366.jpg",
+    "static/media/abacimg.jpg": "/react-website-UI/static/media/abacimg.bb624cf605c2b1d6d679.jpg",
+    "static/media/imgcallcenter.jpg": "/react-website-UI/static/media/imgcallcenter.8d5c2ce911f1ac935c62.jpg",
+    "static/media/analits.jpg": "/react-website-UI/static/media/analits.1738f66dac35027eb396.jpg",
+    "static/media/img3.jpg": "/react-website-UI/static/media/img3.8928ab50588837d09dbd.jpg",
+    "static/media/vibelogo.webp": "/react-website-UI/static/media/vibelogo.a1b8fb0d5b94eb2f4100.webp",
+    "index.html": "/react-website-UI/index.html",
+    "main.d5f29a8a.css.map": "/react-website-UI/static/css/main.d5f29a8a.css.map",
+    "main.3373e1d3.js.map": "/react-website-UI/static/js/main.3373e1d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5f29a8a.css",
+    "static/js/main.3373e1d3.js"
+  ]
+}
